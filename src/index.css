@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-hero {
+  background-image: url("/assets/home/desktop/image-hero-coffeepress.jpg");
+}
+
+.about-hero {
+  background-image: url("/assets/about/desktop/image-hero-whitecup.jpg");
+}
+
+.plan-hero {
+  background-image: url("/assets/plan/desktop/image-hero-blackcup.jpg");
+}
