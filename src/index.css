@@ -3,13 +3,41 @@
 @tailwind utilities;
 
 .home-hero {
-  background-image: url("/assets/home/desktop/image-hero-coffeepress.jpg");
+  background-image: url("/assets/home/mobile/image-hero-coffeepress.jpg");
 }
 
 .about-hero {
-  background-image: url("/assets/about/desktop/image-hero-whitecup.jpg");
+  background-image: url("/assets/about/mobile/image-hero-whitecup.jpg");
 }
 
 .plan-hero {
-  background-image: url("/assets/plan/desktop/image-hero-blackcup.jpg");
+  background-image: url("/assets/plan/mobile/image-hero-blackcup.jpg");
+}
+
+@media (min-width: 768px) {
+  .home-hero {
+    background-image: url("/assets/home/tablet/image-hero-coffeepress.jpg");
+  }
+
+  .about-hero {
+    background-image: url("/assets/about/tablet/image-hero-whitecup.jpg");
+  }
+
+  .plan-hero {
+    background-image: url("/assets/plan/tablet/image-hero-blackcup.jpg");
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-hero {
+    background-image: url("/assets/home/desktop/image-hero-coffeepress.jpg");
+  }
+
+  .about-hero {
+    background-image: url("/assets/about/desktop/image-hero-whitecup.jpg");
+  }
+
+  .plan-hero {
+    background-image: url("/assets/plan/desktop/image-hero-blackcup.jpg");
+  }
 }

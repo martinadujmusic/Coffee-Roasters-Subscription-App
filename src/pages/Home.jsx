@@ -3,6 +3,10 @@ import Hero from "../components/Hero";
 import StepCards from "../components/StepCards";
 import WhyChoose from "../components/WhyChoose";
 
+import imgOurCollectionMobile from "../../assets/home/mobile/our-collection-heading-mobile.svg";
+import imgOurCollectionTablet from "../../assets/home/tablet/our-collection-heading-tablet.svg";
+import imgOurCollectionDesktop from "../../assets/home/desktop/our-collection-heading.svg";
+
 function Home() {
   return (
     <main className="px-6 mb-[7.5rem] md:px-10 md:mb-36 xl:mb-[12.5rem]">
@@ -14,12 +18,29 @@ function Home() {
           biggerHeroSection
           largeHeading
         />
-        <div className="flex flex-col items-center xl:-mt-16">
+
+        <section className="flex flex-col items-center xl:-mt-16">
           <h2 className="sr-only">Our collection</h2>
+
+          <picture>
+            <source
+              srcSet={imgOurCollectionDesktop}
+              media="(min-width:1280px)"
+            />
+            <source srcSet={imgOurCollectionTablet} media="(min-width:768px)" />
+            <img
+              src={imgOurCollectionMobile}
+              alt="Our collection text"
+              aria-hidden="true"
+            />
+          </picture>
+
           <Collection />
-        </div>
+        </section>
+
+        <section></section>
         <WhyChoose />
-        <StepCards />
+        <StepCards isHome />
       </div>
     </main>
   );
