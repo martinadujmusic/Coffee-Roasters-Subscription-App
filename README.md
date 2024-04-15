@@ -1,2 +1,3 @@
 # Coffee-Roasters-Subscription-App
- Frontend Mentor challenge made with React JS library
+
+☕ 3 page coffee subscription site built with React JS library and Tailwind | Frontend Mentor Challenge
