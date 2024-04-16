@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.desktop-nav a:hover {
+  color: hsl(215, 19%, 25%);
+}
+
+.nav-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgb(254, 252, 247) 50%,
+    rgba(254, 252, 247, 0.5)
+  );
+}
+
 .home-hero {
   background-image: url("/assets/home/mobile/image-hero-coffeepress.jpg");
 }
@@ -12,6 +24,10 @@
 
 .plan-hero {
   background-image: url("/assets/plan/mobile/image-hero-blackcup.jpg");
+}
+
+.about-quality {
+  background-image: url("/assets/about/tablet/bg-quality.png");
 }
 
 @media (min-width: 768px) {

@@ -1,7 +1,7 @@
-import AboutQuality from "../components/AboutQuality";
-import Commitment from "../components/Commitment";
-import HeadQuarters from "../components/HeadQuarters";
-import Hero from "../components/Hero";
+import AboutQuality from "../components/about/AboutQuality";
+import Commitment from "../components/about/Commitment";
+import HeadQuarters from "../components/about/HeadQuarters";
+import Hero from "../components/common/Hero";
 
 function About() {
   return (

@@ -1,7 +1,8 @@
-import Collection from "../components/Collection";
-import Hero from "../components/Hero";
-import StepCards from "../components/StepCards";
-import WhyChoose from "../components/WhyChoose";
+import Collection from "../components/home/Collection.jsx";
+import WhyChoose from "../components/home/WhyChoose.jsx";
+import Hero from "../components/common/Hero.jsx";
+import StepCards from "../components/common/StepCards.jsx";
+import Button from "../components/common/Button.jsx";
 
 import imgOurCollectionMobile from "../../assets/home/mobile/our-collection-heading-mobile.svg";
 import imgOurCollectionTablet from "../../assets/home/tablet/our-collection-heading-tablet.svg";
@@ -17,7 +18,9 @@ function Home() {
           description="Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule."
           biggerHeroSection
           largeHeading
-        />
+        >
+          <Button to={"plan"}>Create your plan</Button>
+        </Hero>
 
         <section className="flex flex-col items-center xl:-mt-16">
           <h2 className="sr-only">Our collection</h2>
@@ -38,9 +41,17 @@ function Home() {
           <Collection />
         </section>
 
-        <section></section>
         <WhyChoose />
-        <StepCards isHome />
+
+        <section className="xl:max-w-[1045px] xl:ml-[5.25rem] overflow-hidden">
+          <h2 className="text-[1.5rem] leading-[1.5rem] font-serif font-black text-center text-light-gray mb-20 md:text-left md:mb-10 xl:mb-20">
+            How it works
+          </h2>
+          <StepCards isHome />
+          <div className="mt-20 flex justify-center md:justify-start md:mt-11 xl:mt-16">
+            <Button to="/plan">Create your plan</Button>
+          </div>
+        </section>
       </div>
     </main>
   );
