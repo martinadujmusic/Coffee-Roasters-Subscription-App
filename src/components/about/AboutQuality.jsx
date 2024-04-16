@@ -18,7 +18,7 @@ function AboutQuallity() {
       </picture>
 
       <div className="text-center max-w-[540px] xl:text-left">
-        <h2 className="text-[1.75rem] leading-none font-serif font-black md:text-[2rem] md:leading-[3rem] xl:text-[3rem]">
+        <h2 className="text-[1.75rem] leading-none font-serif font-black md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]">
           Uncompromising quality
         </h2>
         <p className="text-very-light-yellow mt-6 xl:mt-8">

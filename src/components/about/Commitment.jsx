@@ -12,7 +12,7 @@ function Commitment() {
       </picture>
 
       <div className="text-center md:text-left xl:max-w-[540px]">
-        <h2 className="text-[2.25rem] leading-[3rem] font-serif font-black xl:text-[3rem]">
+        <h2 className="text-[2rem] leading-[2.5rem] font-serif font-black xl:text-[2.5rem]">
           Our commitment
         </h2>
         <p className="text-dark-gray-blue mt-[1.875rem] xl:mt-8">
