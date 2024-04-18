@@ -14,7 +14,7 @@ function HeadQuarters() {
               className="flex flex-col items-center md:flex-1 md:items-start xl:max-w-[285px]"
             >
               <img src={location.icon} className="h-[50px]" />
-              <h3 className="mt-12 font-serif font-black text-dark-gray-blue text-[1.75rem] leading-[2.25rem] md:text-[1.5rem] xl:mt-11">
+              <h3 className="mt-12 font-serif font-black text-dark-gray-blue text-[1.5rem] leading-[2rem] md:text-[1.75] xl:mt-11">
                 {location.location}
               </h3>
               <div className="mt-[1.375rem] text-center md:text-left xl:mt-6 *:block">

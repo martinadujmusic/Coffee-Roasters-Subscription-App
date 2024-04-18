@@ -12,10 +12,10 @@ function Commitment() {
       </picture>
 
       <div className="text-center md:text-left xl:max-w-[540px]">
-        <h2 className="text-[2rem] leading-[2.5rem] font-serif font-black xl:text-[2.5rem]">
+        <h2 className="mx-5 text-[1.5rem] leading-[2rem] md:text-[2rem] md:leading-[2.5rem] font-serif font-black xl:text-[2.5rem]">
           Our commitment
         </h2>
-        <p className="text-dark-gray-blue mt-[1.875rem] xl:mt-8">
+        <p className="text-dark-gray-blue mx-5 mt-[1.875rem] xl:mt-8">
           We’re built on a simple mission and a commitment to doing good along
           the way. We want to make it easy for you to discover and brew the
           world’s best coffee at home. It all starts at the source. To locate

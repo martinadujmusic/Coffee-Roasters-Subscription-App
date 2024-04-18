@@ -3,7 +3,6 @@ import NavigationLinks from "../navigation/NavigationLinks.jsx";
 import logoImg from "../../../assets/shared/desktop/logo.svg";
 import { Fragment, useState } from "react";
 import { Transition } from "@headlessui/react";
-import { fade } from "../../utils/transitions.js";
 
 function Heading() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +38,7 @@ function Heading() {
           <NavigationLinks />
         </ul>
 
-        <Transition show={isOpen} {...fade} as={Fragment}>
+        <Transition show={isOpen} className="transition-opacity" as={Fragment}>
           <ul className="absolute w-full min-h-dvh top-full left-0 z-10 nav-gradient text-center p-10 text-[1.5rem] leading-[1.5rem] font-serif font-black flex flex-col gap-8 md:hidden">
             <NavigationLinks onClick={() => setIsOpen(false)} />
           </ul>
