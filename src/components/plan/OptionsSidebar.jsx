@@ -10,7 +10,7 @@ export default function OptionsSidebar({ settings, scrollToSection }) {
             className="text-left py-6 border-b border-b-gray-blue last:border-none first:pt-0 group"
             disabled={
               option.id === "grindOption" &&
-              settings?.howDrink?.name === "Capsule"
+              settings?.howToDrink?.type === "Capsule"
             }
             onClick={() => scrollToSection(option.id)}
           >

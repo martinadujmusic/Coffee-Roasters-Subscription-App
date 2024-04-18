@@ -18,10 +18,10 @@ function AboutQuallity() {
       </picture>
 
       <div className="text-center max-w-[540px] xl:text-left">
-        <h2 className="text-[1.75rem] leading-none font-serif font-black md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]">
+        <h2 className="text-[1.5rem] leading-none font-serif font-black mx-5 md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]">
           Uncompromising quality
         </h2>
-        <p className="text-very-light-yellow mt-6 xl:mt-8">
+        <p className="text-very-light-yellow mx-5 mt-6 xl:mt-8">
           Although we work with growers who pay close attention to all stages of
           harvest and processing, we employ, on our end, a rigorous quality
           control program to avoid over-roasting or baking the coffee dry. Every
