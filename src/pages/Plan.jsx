@@ -2,7 +2,6 @@ import { useState, useRef, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
 import { orderOptions } from "../../data.js";
-import { fade, scale } from "../utils/transitions.js";
 
 import Hero from "../components/common/Hero.jsx";
 import StepCards from "../components/common/StepCards.jsx";
@@ -21,7 +20,7 @@ export default function CreatePlan() {
   const sectionRefs = useRef({});
   const { deliveries } = settings;
 
-  const isCapsuleSelected = settings?.howDrink?.name === "Capsule";
+  const isCapsuleSelected = settings?.howToDrink?.type === "Capsule";
   const keysToCheck = isCapsuleSelected
     ? Object.keys(settings).filter((key) => key !== "grindOption")
     : Object.keys(settings);
@@ -114,12 +113,12 @@ export default function CreatePlan() {
 
       <Transition show={isModalOpen} as={Fragment}>
         <Dialog onClose={() => setIsModalOpen(false)} className="relative z-50">
-          <Transition.Child as={Fragment} {...fade}>
+          <Transition.Child as={Fragment} className="transition-opacity">
             <div className="fixed inset-0 bg-black/50" aria-hidden="true"></div>
           </Transition.Child>
           <div className="fixed inset-0 w-screen overflow-auto">
             <div className="flex justify-center items-center inset-0 min-h-full px-6 py-8 overflow-y-auto">
-              <Transition.Child as={Fragment} {...scale}>
+              <Transition.Child as={Fragment} className="transition-transform">
                 <Dialog.Panel className="w-full max-w-[445px] rounded-lg bg-white overflow-hidden md:max-w-[540px]">
                   <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-serif font-black text-[1.75rem] leading-[1.5rem] md:px-14 md:pt-12 md:pb-10 md:text-[3rem] md:leading-[3rem]">
                     Order Summary
