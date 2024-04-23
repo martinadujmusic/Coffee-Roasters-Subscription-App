@@ -5,7 +5,7 @@ import { scale } from "../../utils/transitions.js";
 import arrowIcon from "../../../assets/plan/desktop/icon-arrow.svg";
 
 const OrderForm = forwardRef(
-  ({ option, onChange, disabled, settings }, ref) => {
+  ({ orderOption, onChange, disabled, settings }, ref) => {
     const [isDisclosureOpen, setIsDisclosureOpen] = useState(true);
 
     useEffect(() => {
@@ -27,7 +27,7 @@ const OrderForm = forwardRef(
           onClick={toggleDisclosure}
           disabled={disabled}
         >
-          <span className="mr-[4.375rem]">{option.heading}</span>
+          <span className="mr-[4.375rem]">{orderOption.heading}</span>
           <img
             src={arrowIcon}
             className={`${
@@ -40,15 +40,22 @@ const OrderForm = forwardRef(
 
         <Transition show={isDisclosureOpen} {...scale}>
           <RadioGroup
+<<<<<<< Updated upstream
             id={option.id}
             className="flex flex-col gap-4 md:flex-row md:gap-[0.625rem] xl:gap-6"
             value={settings[option.id]}
             onChange={(value) => onChange(option.id, value)}
+=======
+            id={orderOption.id}
+            className="flex flex-col gap-4 md:flex-row md:gap-[0.625rem] xl:gap-6 transition-transform"
+            value={settings[orderOption.id]}
+            onChange={(value) => onChange(orderOption.id, value)}
+>>>>>>> Stashed changes
           >
             <RadioGroup.Label className="sr-only">
-              {option.type}
+              {orderOption.type}
             </RadioGroup.Label>
-            {option.options.map((option) => (
+            {orderOption.options.map((option) => (
               <RadioGroup.Option key={option.type} value={option} as={Fragment}>
                 {({ checked }) => (
                   <div
