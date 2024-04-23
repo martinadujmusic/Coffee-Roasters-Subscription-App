@@ -1,7 +1,7 @@
 import Collection from "../components/home/Collection.jsx";
 import WhyChoose from "../components/home/WhyChoose.jsx";
 import Hero from "../components/common/Hero.jsx";
-import StepCards from "../components/common/StepCards.jsx";
+import InstructionCards from "../components/common/InstructionCards.jsx";
 import Button from "../components/common/Button.jsx";
 
 import imgOurCollectionMobile from "../../assets/home/mobile/our-collection-heading-mobile.svg";
@@ -47,7 +47,7 @@ function Home() {
           <h2 className="text-[1.5rem] leading-[1.5rem] font-serif font-black text-center text-light-gray mb-20 md:text-left md:mb-10 xl:mb-20">
             How it works
           </h2>
-          <StepCards isHome />
+          <InstructionCards />
           <div className="mt-20 flex justify-center md:justify-start md:mt-11 xl:mt-16">
             <Button to="/plan">Create your plan</Button>
           </div>

@@ -4,7 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { orderOptions } from "../../data.js";
 
 import Hero from "../components/common/Hero.jsx";
-import StepCards from "../components/common/StepCards.jsx";
+import InstructionCards from "../components/common/InstructionCards.jsx";
 import Button from "../components/common/Button.jsx";
 import OrderForm from "../components/plan/OrderForm.jsx";
 import OrderSummary from "../components/plan/OrderSummary.jsx";
@@ -69,7 +69,7 @@ export default function CreatePlan() {
       <section className="w-full md:px-10">
         <div className="max-w-7xl mx-auto">
           <div className="px-6 py-20  bg-gray-blue text-very-light-yellow overflow-hidden  md:pt-24 md:pb-[4.375rem] xl:px-[5.25rem] xl:py-[6.25rem] xl:rounded-[10px]">
-            <StepCards />
+            <InstructionCards />
           </div>
         </div>
       </section>
@@ -84,14 +84,16 @@ export default function CreatePlan() {
 
           <div className="flex flex-col gap-[7.5rem] text-[1.625rem] leading-[1.625rem] md:gap-36 xl:max-w-[730px] xl:gap-[5.5rem]">
             <div className="flex flex-col gap-24 md:gap-[6.25rem] xl:gap-[5.5rem]">
-              {orderOptions.map((option) => (
+              {orderOptions.map((orderOption) => (
                 <OrderForm
-                  ref={(el) => (sectionRefs.current[option.id] = el)}
-                  key={option.id}
+                  ref={(el) => (sectionRefs.current[orderOption.id] = el)}
+                  key={orderOption.id}
                   settings={settings}
                   onChange={setValue}
-                  option={option}
-                  disabled={option.id === "grindOption" && isCapsuleSelected}
+                  orderOption={orderOption}
+                  disabled={
+                    orderOption.id === "grindOption" && isCapsuleSelected
+                  }
                 />
               ))}
             </div>
@@ -120,7 +122,7 @@ export default function CreatePlan() {
             <div className="flex justify-center items-center inset-0 min-h-full px-6 py-8 overflow-y-auto">
               <Transition.Child as={Fragment} className="transition-transform">
                 <Dialog.Panel className="w-full max-w-[445px] rounded-lg bg-white overflow-hidden md:max-w-[540px]">
-                  <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-serif font-black text-[1.75rem] leading-[1.5rem] md:px-14 md:pt-12 md:pb-10 md:text-[3rem] md:leading-[3rem]">
+                  <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-serif font-black text-[1.25rem] leading-[1.5rem] md:px-14 md:pt-12 md:pb-10 md:text-[2.25rem] md:leading-[2.5rem]">
                     Order Summary
                   </Dialog.Title>
                   <div className="px-6 pt-10 pb-6 text-dark-gray-blue md:p-14">

@@ -39,17 +39,10 @@ const OrderForm = forwardRef(
 
         <Transition show={isDisclosureOpen} className="transition-transform">
           <RadioGroup
-<<<<<<< Updated upstream
-            id={option.id}
-            className="flex flex-col gap-4 md:flex-row md:gap-[0.625rem] xl:gap-6 transition-transform"
-            value={settings[option.id]}
-            onChange={(value) => onChange(option.id, value)}
-=======
             id={orderOption.id}
             className="flex flex-col gap-4 md:flex-row md:gap-[0.625rem] xl:gap-6 transition-transform"
             value={settings[orderOption.id]}
             onChange={(value) => onChange(orderOption.id, value)}
->>>>>>> Stashed changes
           >
             <RadioGroup.Label className="sr-only">
               {orderOption.type}
