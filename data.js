@@ -65,7 +65,7 @@ export const whyChoose = [
   },
 ];
 
-export const steps = [
+export const instructions = [
   {
     heading: "Pick your coffee",
     description:
