@@ -23,7 +23,13 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 - Make selections to create a coffee subscription and see an order summary modal of their choices
 
-### Screenshot
+### Screenshots
+
+![home-screenshot](home-screenshot.png),
+
+![about-screenshot](about-screenshot.png),
+
+![plan-screenshot](plan-screenshot.png)
 
 ### Links
 
