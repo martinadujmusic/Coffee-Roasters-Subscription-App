@@ -3,7 +3,7 @@ import InstructionCard from "./InstructionCard";
 
 function InstructionCards() {
   return (
-    <div className="flex flex-col gap-14 md:flex-row md:gap-[0.625rem] xl:gap-24">
+    <div className="flex flex-col gap-14 md:flex-row md:justify-center md:px-2 md:mx-2 md:gap-[2.5rem] xl:gap-24">
       {instructions.map((instruction, i) => {
         return (
           <InstructionCard

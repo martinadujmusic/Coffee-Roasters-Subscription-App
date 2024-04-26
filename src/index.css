@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 2rem;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 .desktop-nav a:hover {
   color: hsl(215, 19%, 25%);
 }
@@ -9,10 +33,12 @@
 .nav-gradient {
   background: linear-gradient(
     to bottom,
-    rgb(254, 252, 247) 50%,
-    rgba(254, 252, 247, 0.5)
+    hsl(43, 78%, 98%) 50%,
+    hsla(43, 78%, 98%, 0.5)
   );
 }
+
+/* PAGES BACKGROUNDS */
 
 .home-hero {
   background-image: url("/assets/home/mobile/image-hero-coffeepress.jpg");
@@ -30,6 +56,8 @@
   background-image: url("/assets/about/tablet/bg-quality.png");
 }
 
+/* PAGES BACKGROUNDS, min-width 768px */
+
 @media (min-width: 768px) {
   .home-hero {
     background-image: url("/assets/home/tablet/image-hero-coffeepress.jpg");
@@ -43,6 +71,8 @@
     background-image: url("/assets/plan/tablet/image-hero-blackcup.jpg");
   }
 }
+
+/* PAGES BACKGROUNDS, min-width 1280px */
 
 @media (min-width: 1280px) {
   .home-hero {

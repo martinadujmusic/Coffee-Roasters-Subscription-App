@@ -66,9 +66,9 @@ export default function CreatePlan() {
         </div>
       </div>
 
-      <section className="w-full md:px-10">
+      <section className="px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="px-6 py-20  bg-gray-blue text-very-light-yellow overflow-hidden  md:pt-24 md:pb-[4.375rem] xl:px-[5.25rem] xl:py-[6.25rem] xl:rounded-[10px]">
+          <div className="px-6 py-20  bg-gray-blue text-very-light-yellow overflow-hidden rounded-[10px] md:pt-24 md:pb-[4.375rem] xl:px-[5.25rem] xl:py-[6.25rem] ">
             <InstructionCards />
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function CreatePlan() {
 
             <div className="max-w-7xl mx-auto flex flex-col items-center gap-14 md:gap-10 xl:items-end">
               <div className="p-8 rounded-[10px] bg-dark-gray-blue  text-white md:py-7 md:px-11 xl:px-16">
-                <h2 className="text-[1.625rem] leading-[1.625rem] uppercase text-white/50 mb-2">
+                <h2 className="text-[1.25rem] leading-[1.5rem] uppercase text-white/50 mb-4">
                   Order Summary
                 </h2>
                 <OrderSummary settings={settings} />
@@ -122,7 +122,7 @@ export default function CreatePlan() {
             <div className="flex justify-center items-center inset-0 min-h-full px-6 py-8 overflow-y-auto">
               <Transition.Child as={Fragment} className="transition-transform">
                 <Dialog.Panel className="w-full max-w-[445px] rounded-lg bg-white overflow-hidden md:max-w-[540px]">
-                  <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-serif font-black text-[1.25rem] leading-[1.5rem] md:px-14 md:pt-12 md:pb-10 md:text-[2.25rem] md:leading-[2.5rem]">
+                  <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-serif font-black text-[1.55rem] leading-[1.625rem] md:px-14 md:pt-12 md:pb-10 md:text-[2.25rem] md:leading-[2.5rem]">
                     Order Summary
                   </Dialog.Title>
                   <div className="px-6 pt-10 pb-6 text-dark-gray-blue md:p-14">

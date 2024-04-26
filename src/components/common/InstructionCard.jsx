@@ -1,6 +1,6 @@
 function InstructionCard({ number, title, description }) {
   return (
-    <article className="text-center group md:text-left md:flex-1 xl:max-w-[285px]">
+    <article className="text-center group md:text-left md:flex-1 xl:max-w-[295px]">
       <span className="font-serif font-black text-[4.5rem] leading-[4.5rem] text-pale-orange">
         {String(number).padStart(2, "0")}
       </span>
