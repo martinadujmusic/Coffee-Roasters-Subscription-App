@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshots
 
-![home-screenshot](home-screenshot.png),
-![about-screenshot](about-screenshot.png),
+![home-screenshot](home-screenshot.png)
+![about-screenshot](about-screenshot.png)
 ![plan-screenshot](plan-screenshot.png)
 
 ### Links
