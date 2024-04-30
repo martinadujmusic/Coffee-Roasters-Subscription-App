@@ -7,9 +7,7 @@ function AboutQuallity() {
     <div className="flex flex-col items-center gap-16 text-very-light-yellow px-6 pb-[3.75rem] rounded-[10px] mt-[4.875rem]  md:pb-[4.25rem] md:mt-40 xl:flex-row-reverse xl:px-[5.25rem] xl:pb-[5.5rem] xl:mb-[5.5rem] about-quality">
       <picture>
         <source srcSet={qualityImgDesktop} media="(min-width: 1280px)" />
-
         <source srcSet={qualityImgMobile} media="(min-width: 768px)" />
-
         <img
           src={qualityImgTablet}
           className="rounded-lg mt-[-4.875rem] md:-mt-40 xl:mt-[-5.5rem]"

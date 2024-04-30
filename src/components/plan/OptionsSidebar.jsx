@@ -2,7 +2,7 @@ import { orderOptions } from "../../../data.js";
 
 export default function OptionsSidebar({ settings, scrollToSection }) {
   return (
-    <div className="hidden xl:block w-full max-w-[255px] font-serif font-black text-[1.5rem] leading-[1.5rem]">
+    <div className="hidden xl:block w-full max-w-[255px] font-serif text-dark-gray-blue font-black text-[1.5rem] leading-[1.5rem]">
       <div className="flex flex-col sticky top-12">
         {orderOptions.map((orderOption, index) => (
           <button

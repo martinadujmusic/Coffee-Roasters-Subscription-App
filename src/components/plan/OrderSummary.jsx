@@ -2,7 +2,7 @@ import SummaryOption from "./SummaryOption";
 
 export default function OrderSummary({ settings }) {
   return (
-    <p className="font-serif font-black text-[1.5rem] leading-10">
+    <p className="py-2 font-serif font-black text-[1.5rem] leading-10">
       “I drink my coffee{" "}
       {settings.howToDrink?.type === "Capsule" ? "using" : "as"}{" "}
       <SummaryOption value={settings.howToDrink?.type} />, with a{" "}

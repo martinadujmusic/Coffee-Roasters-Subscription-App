@@ -68,7 +68,7 @@ export default function CreatePlan() {
 
       <section className="px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="px-6 py-20  bg-gray-blue text-very-light-yellow overflow-hidden rounded-[10px] md:pt-24 md:pb-[4.375rem] xl:px-[5.25rem] xl:py-[6.25rem] ">
+          <div className="instructions-plan-page  px-6 py-20 text-very-light-yellow overflow-hidden rounded-[10px] md:pt-24 md:pb-[4.375rem] xl:px-[5.25rem] xl:py-[6.25rem] ">
             <InstructionCards />
           </div>
         </div>

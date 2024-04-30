@@ -40,6 +40,8 @@ main {
 
 /* PAGES BACKGROUNDS */
 
+/* HERO BACKGROUND */
+
 .home-hero {
   background-image: url("/assets/home/mobile/image-hero-coffeepress.jpg");
 }
@@ -52,13 +54,21 @@ main {
   background-image: url("/assets/plan/mobile/image-hero-blackcup.jpg");
 }
 
+/* ABOUT, QUALITY SECTION BACKGROUND */
 .about-quality {
-  background-image: url("/assets/about/tablet/bg-quality.png");
+  background-image: url("/assets/about/mobile/bg-quality.png");
+}
+
+/* INSTRUCTIONS-SECTION, ON PLAN PAGE */
+.instructions-plan-page {
+  background-image: url(/assets/plan/mobile/bg-steps.png);
 }
 
 /* PAGES BACKGROUNDS, min-width 768px */
 
 @media (min-width: 768px) {
+  /* HERO BACKGROUND */
+
   .home-hero {
     background-image: url("/assets/home/tablet/image-hero-coffeepress.jpg");
   }
@@ -70,11 +80,23 @@ main {
   .plan-hero {
     background-image: url("/assets/plan/tablet/image-hero-blackcup.jpg");
   }
+
+  /* ABOUT, QUALITY SECTION BACKGROUND */
+
+  .about-quality {
+    background-image: url("/assets/about/tablet/bg-quality.png");
+  }
+
+  /* INSTRUCTIONS-SECTION, ON PLAN PAGE */
+  .instructions-plan-page {
+    background-image: url(/assets/plan/tablet/bg-steps.png);
+  }
 }
 
 /* PAGES BACKGROUNDS, min-width 1280px */
 
 @media (min-width: 1280px) {
+  /* HERO BACKGROUND */
   .home-hero {
     background-image: url("/assets/home/desktop/image-hero-coffeepress.jpg");
   }
@@ -85,5 +107,16 @@ main {
 
   .plan-hero {
     background-image: url("/assets/plan/desktop/image-hero-blackcup.jpg");
+  }
+
+  /* ABOUT, QUALITY SECTION BACKGROUND */
+
+  .about-quality {
+    background-image: url("/assets/about/desktop/bg-quality.png");
+  }
+
+  /* INSTRUCTIONS-SECTION, ON PLAN PAGE */
+  .instructions-plan-page {
+    background-image: url(/assets/plan/desktop/bg-steps.png);
   }
 }
