@@ -122,7 +122,7 @@ export default function CreatePlan() {
             <div className="flex justify-center items-center inset-0 min-h-full px-6 py-8 overflow-y-auto">
               <Transition.Child as={Fragment} className="transition-transform">
                 <Dialog.Panel className="w-full max-w-[445px] rounded-lg bg-white overflow-hidden md:max-w-[540px]">
-                  <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-serif font-black text-[1.55rem] leading-[1.625rem] md:px-14 md:pt-12 md:pb-10 md:text-[2.25rem] md:leading-[2.5rem]">
+                  <Dialog.Title className="px-6 py-7 bg-dark-gray-blue text-white font-fraunces font-black text-[1.55rem] leading-[1.625rem] md:px-14 md:pt-12 md:pb-10 md:text-[2.25rem] md:leading-[2.5rem]">
                     Order Summary
                   </Dialog.Title>
                   <div className="px-6 pt-10 pb-6 text-dark-gray-blue md:p-14">
@@ -132,7 +132,7 @@ export default function CreatePlan() {
                       plan selection if something is off. Subscription discount
                       codes can also be redeemed at the checkout.
                     </Dialog.Description>
-                    <div className="mt-6 md:mt-12 font-serif font-black flex gap-5 items-center">
+                    <div className="mt-6 md:mt-12 font-fraunces font-black flex gap-5 items-center">
                       <p className="hidden md:block text-dark-gray-blue text-[2.25rem] leading-[2.25rem]">
                         ${totalPrice.toFixed(2)} / mo
                       </p>

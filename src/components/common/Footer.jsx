@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom";
 
 import NavigationLinks from "../navigation/NavigationLinks";
 
-import logoLightImg from "../../../assets/shared/desktop/logo-light.svg";
-import facebookLogo from "../../../assets/shared/desktop/icon-facebook.svg";
-import twitterLogo from "../../../assets/shared/desktop/icon-twitter.svg";
-import instagramLogo from "../../../assets/shared/desktop/icon-instagram.svg";
+import logoLightImg from "/assets/shared/desktop/logo-light.svg";
+import facebookLogo from "/assets/shared/desktop/icon-facebook.svg";
+import twitterLogo from "/assets/shared/desktop/icon-twitter.svg";
+import instagramLogo from "/assets/shared/desktop/icon-twitter.svg";
 
 function Footer() {
   return (

@@ -1,15 +1,15 @@
-import coffeeGranEspressoImg from "./assets/home/desktop/image-gran-espresso.png";
-import coffeePlanaltoImg from "./assets/home/desktop/image-planalto.png";
-import coffeePiccolloImg from "./assets/home/desktop/image-piccollo.png";
-import coffeeDancheImg from "./assets/home/desktop/image-danche.png";
+import coffeeGranEspressoImg from "/assets/home/desktop/image-gran-espresso.png";
+import coffeePlanaltoImg from "/assets/home/desktop/image-planalto.png";
+import coffeePiccolloImg from "/assets/home/desktop/image-piccollo.png";
+import coffeeDancheImg from "/assets/home/desktop/image-danche.png";
 
-import beanIcon from "./assets/home/desktop/icon-coffee-bean.svg";
-import giftIcon from "./assets/home/desktop/icon-gift.svg";
-import truckIcon from "./assets/home/desktop/icon-truck.svg";
+import beanIcon from "/assets/home/desktop/icon-coffee-bean.svg";
+import giftIcon from "/assets/home/desktop/icon-gift.svg";
+import truckIcon from "/assets/home/desktop/icon-truck.svg";
 
-import ukIcon from "./assets/about/desktop/illustration-uk.svg";
-import canadaIcon from "./assets/about/desktop/illustration-canada.svg";
-import australiaIcon from "./assets/about/desktop/illustration-australia.svg";
+import ukIcon from "/assets/about/desktop/illustration-uk.svg";
+import canadaIcon from "/assets/about/desktop/illustration-canada.svg";
+import australiaIcon from "/assets/about/desktop/illustration-australia.svg";
 
 export const collection = [
   {

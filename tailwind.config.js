@@ -26,8 +26,8 @@ export default {
       },
 
       fontFamily: {
-        sans: ["Barlow", "sans-serif"],
-        serif: ["Fraunces", "serif"],
+        barlow: ["Barlow", "sans-serif"],
+        fraunces: ["Fraunces", "serif"],
       },
     },
   },

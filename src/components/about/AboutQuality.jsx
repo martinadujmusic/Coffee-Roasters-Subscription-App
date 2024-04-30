@@ -1,10 +1,10 @@
-import qualityImgMobile from "../../../assets/about/mobile/image-quality.jpg";
-import qualityImgTablet from "../../../assets/about/tablet/image-quality.jpg";
-import qualityImgDesktop from "../../../assets/about/desktop/image-quality.jpg";
+import qualityImgMobile from "/assets/about/mobile/image-quality.jpg";
+import qualityImgTablet from "/assets/about/tablet/image-quality.jpg";
+import qualityImgDesktop from "/assets/about/desktop/image-quality.jpg";
 
 function AboutQuallity() {
   return (
-    <div className="flex flex-col items-center gap-16 text-very-light-yellow px-6 pb-[3.75rem] rounded-[10px] mt-[4.875rem]  md:pb-[4.25rem] md:mt-40 xl:flex-row-reverse xl:px-[5.25rem] xl:pb-[5.5rem] xl:mb-[5.5rem] about-quality">
+    <section className="flex flex-col items-center gap-16 text-very-light-yellow px-6 pb-[3.75rem] rounded-[10px] mt-[68px]  md:pb-[4.25rem] md:mt-40 xl:flex-row-reverse xl:px-[5.25rem] xl:pb-[5.5rem] xl:mb-[5.5rem] about-quality">
       <picture>
         <source srcSet={qualityImgDesktop} media="(min-width: 1280px)" />
         <source srcSet={qualityImgMobile} media="(min-width: 768px)" />
@@ -15,8 +15,8 @@ function AboutQuallity() {
         />
       </picture>
 
-      <div className="text-center max-w-[540px] xl:text-left">
-        <h2 className="text-[1.5rem] leading-none font-serif font-black mx-5 md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]">
+      <article className="text-center max-w-[540px] xl:text-left">
+        <h2 className="text-2xl font-fraunces font-black mx-5 md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]">
           Uncompromising quality
         </h2>
         <p className="text-very-light-yellow mx-5 mt-6 xl:mt-8">
@@ -27,8 +27,8 @@ function AboutQuallity() {
           is to roast consistent, user-friendly coffee, so that brewing is easy
           and enjoyable.
         </p>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }
 

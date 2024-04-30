@@ -1,6 +1,6 @@
-import imgCommitmentMobile from "../../../assets/about/mobile/image-commitment.jpg";
-import imgCommitmentTablet from "../../../assets/about/tablet/image-commitment.jpg";
-import imgCommitmentDesktop from "../../../assets/about/desktop/image-commitment.jpg";
+import imgCommitmentMobile from "/assets/about/mobile/image-commitment.jpg";
+import imgCommitmentTablet from "/assets/about/tablet/image-commitment.jpg";
+import imgCommitmentDesktop from "/assets/about/desktop/image-commitment.jpg";
 
 function Commitment() {
   return (
@@ -12,7 +12,7 @@ function Commitment() {
       </picture>
 
       <div className="text-center md:text-left xl:max-w-[540px]">
-        <h2 className="mx-5 text-[1.5rem] leading-[2rem] md:text-[2rem] md:leading-[2.5rem] font-serif font-black xl:text-[2.5rem]">
+        <h2 className="mx-5 text-[1.5rem] leading-[2rem] md:text-[2rem] md:leading-[2.5rem] font-fraunces font-black xl:text-[2.5rem]">
           Our commitment
         </h2>
         <p className="text-dark-gray-blue mx-5 mt-[1.875rem] xl:mt-8">

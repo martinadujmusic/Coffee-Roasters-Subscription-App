@@ -16,7 +16,7 @@ function Hero({
     >
       <div className="text-neutral-100 text-center max-w-[400px] md:text-left xl:max-w-[500px]">
         <h1
-          className={`mb-6 font-serif font-black text-balance 
+          className={`mb-6 font-fraunces font-black text-balance 
         ${
           largeHeading
             ? "text-[2.5rem] leading-10 font-black md:text-5xl xl:text-7xl xl:leading-7xl xl:mb-8"

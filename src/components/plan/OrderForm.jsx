@@ -1,7 +1,7 @@
 import { useState, useEffect, Fragment, forwardRef } from "react";
 import { RadioGroup, Transition } from "@headlessui/react";
 
-import arrowIcon from "../../../assets/plan/desktop/icon-arrow.svg";
+import arrowIcon from "/assets/plan/desktop/icon-arrow.svg";
 
 const OrderForm = forwardRef(
   ({ orderOption, onChange, disabled, settings }, ref) => {
@@ -22,7 +22,7 @@ const OrderForm = forwardRef(
         className="text-[1rem] leading-[1rem] flex flex-col gap-8 md:gap-10 xl:gap-14 has-[:disabled]:opacity-50 transition-opacity"
       >
         <button
-          className="text-gray-blue font-serif font-black text-[1.25rem] leading-7 text-left flex justify-between items-center md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]"
+          className="text-gray-blue font-fraunces font-black text-[1.25rem] leading-7 text-left flex justify-between items-center md:text-[2rem] md:leading-[2.5rem] xl:text-[2.5rem]"
           onClick={toggleDisclosure}
           disabled={disabled}
         >
@@ -57,10 +57,10 @@ const OrderForm = forwardRef(
                         : "bg-light-yellow hover:bg-pale-orange text-gray-blue"
                     }`}
                   >
-                    <h3 className="font-serif font-black text-[1.5rem] leading-8">
+                    <h3 className="font-fraunces font-black text-[1.5rem] leading-8">
                       {option.type}
                     </h3>
-                    <p className="mt-2 md:mt-6 font-serif text-[1rem] leading-[1.5rem]">
+                    <p className="mt-2 md:mt-6 font-fraunces text-[1rem] leading-[1.5rem]">
                       {option.prices && settings.quantity?.type && (
                         <span>{`$${option.prices[
                           settings.quantity.type

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import NavigationLinks from "../navigation/NavigationLinks.jsx";
-import logoImg from "../../../assets/shared/desktop/logo.svg";
+import logoImg from "/assets/shared/desktop/logo.svg";
 import { Fragment, useState } from "react";
 import { Transition } from "@headlessui/react";
 
@@ -39,7 +39,7 @@ function Heading() {
         </ul>
 
         <Transition show={isOpen} className="transition-opacity" as={Fragment}>
-          <ul className="absolute w-full min-h-dvh top-full left-0 z-10 nav-gradient text-center p-10 text-[1.5rem] leading-[1.5rem] font-serif font-black flex flex-col gap-8 md:hidden">
+          <ul className="absolute w-full min-h-dvh top-full left-0 z-10 nav-gradient text-center p-10 text-[1.5rem] leading-[1.5rem] font-fraunces font-black flex flex-col gap-8 md:hidden">
             <NavigationLinks onClick={() => setIsOpen(false)} />
           </ul>
         </Transition>

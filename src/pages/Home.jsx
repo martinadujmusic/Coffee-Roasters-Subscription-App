@@ -4,9 +4,9 @@ import Hero from "../components/common/Hero.jsx";
 import InstructionCards from "../components/common/InstructionCards.jsx";
 import Button from "../components/common/Button.jsx";
 
-import imgOurCollectionMobile from "../../assets/home/mobile/our-collection-heading-mobile.svg";
-import imgOurCollectionTablet from "../../assets/home/tablet/our-collection-heading-tablet.svg";
-import imgOurCollectionDesktop from "../../assets/home/desktop/our-collection-heading.svg";
+import imgOurCollectionMobile from "/assets/home/mobile/our-collection-heading-mobile.svg";
+import imgOurCollectionTablet from "/assets/home/tablet/our-collection-heading-tablet.svg";
+import imgOurCollectionDesktop from "/assets/home/desktop/our-collection-heading.svg";
 
 function Home() {
   return (
@@ -44,7 +44,7 @@ function Home() {
         <WhyChoose />
 
         <section className="xl:max-w-[1045px] xl:ml-[5.25rem] overflow-hidden">
-          <h2 className="text-[1.5rem] leading-[1.5rem] font-serif font-black text-center text-very-light-yellow mb-20 md:text-left md:mb-10 xl:mb-20">
+          <h2 className="text-[1.5rem] leading-[1.5rem] font-fraunces font-black text-center text-very-light-yellow mb-20 md:text-left md:mb-10 xl:mb-20">
             How it works
           </h2>
           <InstructionCards />
