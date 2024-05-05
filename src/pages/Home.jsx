@@ -44,7 +44,7 @@ function Home() {
         <WhyChoose />
 
         <section className="xl:max-w-[1045px] xl:ml-[5.25rem] overflow-hidden">
-          <h2 className="text-[1.5rem] leading-[1.5rem] font-fraunces font-black text-center text-very-light-yellow mb-20 md:text-left md:mb-10 xl:mb-20">
+          <h2 className="text-[1.5rem] leading-[1.5rem] font-fraunces font-black text-center text-very-light-gray mb-20 md:text-left md:mb-10 xl:mb-20">
             How it works
           </h2>
           <InstructionCards />

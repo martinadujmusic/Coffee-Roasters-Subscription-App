@@ -11,10 +11,10 @@ function Collection() {
           >
             <img src={item.image} className="max-w-[200px] md:max-w-[255px]" />
             <div className=" text-dark-gray-blue text-center md:text-left md:mt-[1.875rem] xl:text-center xl:mt-0">
-              <h3 className="font-serif font-black text-[1.5rem]">
+              <h3 className="font-fraunces font-black text-[1.5rem]">
                 {item.name}
               </h3>
-              <p className="mt-4 md:mt-6">{item.description}</p>
+              <p className="mt-4 md:mt-6 font-barlow">{item.description}</p>
             </div>
           </article>
         );
