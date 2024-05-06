@@ -8,7 +8,7 @@ This is a solution to the [Coffeeroasters subscription site challenge on Fronten
 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Link](#link)
 
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,12 +23,13 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 - Make selections to create a coffee subscription and see an order summary modal of their choices
 
-### Screenshots
+### Screenshot
 
 ![screenshot](screenshot.png)
 
 ### Link
-https://coffee-roasters-subscription-app.netlify.app/ 
+
+https://coffee-roasters-subscription-app.netlify.app/
 
 ## My process
 
