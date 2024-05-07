@@ -14,7 +14,7 @@ const initialEntries = Object.fromEntries(
   orderOptions.map(({ id }) => [id, null])
 );
 
-export default function CreatePlan() {
+export default function Plan() {
   const [settings, setSettings] = useState(initialEntries);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const sectionRefs = useRef({});
