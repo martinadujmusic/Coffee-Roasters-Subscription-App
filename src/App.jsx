@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { ToastContainer } from "react-toastify";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -17,11 +18,18 @@ function App() {
 
   return (
     <div>
+      <ToastContainer
+        position="top-center"
+        pauseOnFocusLoss={false}
+        theme="colored"
+        autoClose={2500}
+        closeOnClick={true}
+      />
       <Heading />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Plan />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/plan" element={<Plan />} />
       </Routes>
       <Footer />
     </div>

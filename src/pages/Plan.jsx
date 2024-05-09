@@ -1,5 +1,6 @@
 import { useState, useRef, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import { toast } from "react-toastify";
 
 import { orderOptions } from "../../data.js";
 
@@ -48,7 +49,7 @@ export default function Plan() {
 
   function complete() {
     window.scrollTo(0, 0);
-    alert("Your plan is created succesfully!");
+    toast.success("Your plan has been created!");
     setIsModalOpen(false);
     setSettings(initialEntries);
   }

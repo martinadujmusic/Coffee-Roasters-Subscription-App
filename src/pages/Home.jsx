@@ -19,7 +19,7 @@ function Home() {
           biggerHeroSection
           largeHeading
         >
-          <Button to={"plan"}>Create your plan</Button>
+          <Button to={"/"}>Create your plan</Button>
         </Hero>
 
         <section className="flex flex-col items-center xl:-mt-16">
@@ -49,7 +49,7 @@ function Home() {
           </h2>
           <InstructionCards />
           <div className="mt-20 flex justify-center md:justify-start md:mt-11 xl:mt-16">
-            <Button to="/plan">Create your plan</Button>
+            <Button to="/">Create your plan</Button>
           </div>
         </section>
       </div>

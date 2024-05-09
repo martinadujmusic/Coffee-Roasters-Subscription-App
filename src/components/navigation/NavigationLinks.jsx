@@ -4,7 +4,7 @@ function NavigationLinks({ onClick }) {
   return (
     <>
       <li>
-        <NavLink to="/" onClick={onClick} className="hover:opacity-85">
+        <NavLink to="/home" onClick={onClick} className="hover:opacity-85">
           Home
         </NavLink>
       </li>
@@ -13,8 +13,9 @@ function NavigationLinks({ onClick }) {
           About
         </NavLink>
       </li>
+
       <li>
-        <NavLink to="/plan" onClick={onClick} className="hover:opacity-85">
+        <NavLink to="/" onClick={onClick} className="hover:opacity-85">
           Create a plan
         </NavLink>
       </li>

@@ -61,7 +61,7 @@ main {
 
 /* INSTRUCTIONS-SECTION, ON PLAN PAGE */
 .instructions-plan-page {
-  background-image: url(/assets/plan/mobile/bg-steps.png);
+  background-image: url("/assets/plan/mobile/bg-steps.png");
 }
 
 /* PAGES BACKGROUNDS, min-width 768px */
@@ -89,7 +89,7 @@ main {
 
   /* INSTRUCTIONS-SECTION, ON PLAN PAGE */
   .instructions-plan-page {
-    background-image: url(/assets/plan/tablet/bg-steps.png);
+    background-image: url("/assets/plan/tablet/bg-steps.png");
   }
 }
 
@@ -117,6 +117,6 @@ main {
 
   /* INSTRUCTIONS-SECTION, ON PLAN PAGE */
   .instructions-plan-page {
-    background-image: url(/assets/plan/desktop/bg-steps.png);
+    background-image: url("/assets/plan/desktop/bg-steps.png");
   }
 }
